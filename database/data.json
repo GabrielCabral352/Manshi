@@ -1,0 +1,22 @@
+{
+    "menu":[
+        {
+            "id": 1,
+            "nome": "Sushi"
+        }
+    ],
+    "imgback":[
+        {
+            "id" : 1,
+            "source": "/images/premium.jpg"
+        },
+        {
+            "id" : 2,
+            "source": "/images/premium2.jpg"
+        },
+        {
+            "id" : 2,
+            "source": "/images/premium3.jpg"
+        }
+    ]
+}
