@@ -27,8 +27,15 @@ export default {
       imgs: []
     }
   },
+  methods: {
+    async getImagesBackend() {
+      const request = await fetch("http://localhost:3000/imgback")
+      const data = await request.json() 
+      console.log(data)
+    }
+  },
   mounted() {
-    
+    this.getImagesBackend();
   }
 };
 </script>
