@@ -29,9 +29,13 @@ export default {
   },
   methods: {
     async getImagesBackend() {
-      const request = await fetch("http://localhost:3000/imgback")
-      const data = await request.json() 
-      console.log(data)
+      const request = await fetch("http://localhost:3000/imgback");
+      const jsonData = await request.json();
+      jsonData.forEach(data => {
+        console.log(data.source);
+        this.imgs.push(data.source);
+      })
+      console.log(this.imgs)
     }
   },
   mounted() {

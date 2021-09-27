@@ -3,7 +3,7 @@
        <router-link to="/">Home</router-link>
        <router-link to="/history">Nossa História</router-link>
        <router-link to="/network">Rede</router-link>
-       <router-link to="/network">Trabalhe Conosco</router-link>
+       <router-link to="/work">Trabalhe Conosco</router-link>
        <router-link to="/menu">Menu</router-link>
        <img :src="img_logo" alt="" width="60">
    </div>
